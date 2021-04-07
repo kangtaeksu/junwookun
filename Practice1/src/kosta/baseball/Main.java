@@ -16,8 +16,9 @@ public class Main {
 		int[] arr = new int[3];
 
 		do {
-			System.out.println(" �߱����� ");
-			System.out.println("�����Է�");
+			System.out.println("숫자를 입력하세요");
+			System.out.println("세자리 숫자");
+			System.out.println();
 			arr[0] = sc.nextInt();
 			arr[1] = sc.nextInt();
 			arr[2] = sc.nextInt();
@@ -29,7 +30,7 @@ public class Main {
 			count++;
 		} while (strike < 3);
 
-		System.out.println(count + "������ �­���");
+		System.out.println(count + "번만에 성공");
 	}
 
 }
