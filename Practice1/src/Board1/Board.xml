@@ -60,6 +60,7 @@
 	
 	<select id="listReply" parameterType="int" resultType="Reply">
 		select * from reply where name = #{name}
+		<!-- 아왜 -->
 	</select>
 	
 	
