@@ -65,7 +65,7 @@
 	
 	
 	<delete id="deleteReply" parameterType="int">	
-		DELETE FROM reply WHERE r_no = ${r_no}
+		select * from reply where seq = #{seq}
 	</delete>
 	
 </mapper>
