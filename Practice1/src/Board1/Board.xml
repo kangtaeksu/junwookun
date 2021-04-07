@@ -59,7 +59,7 @@
 	</insert>
 	
 	<select id="listReply" parameterType="int" resultType="Reply">
-		select * from reply where seq = #{seq}
+		select * from reply where name = #{name}
 	</select>
 	
 	
